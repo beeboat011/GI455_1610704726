@@ -6,38 +6,38 @@ using UnityEngine.UI;
 public class findword : MonoBehaviour
 {
 
-    public string findWord;
-    public GameObject inputField;
-    public GameObject textDisplay;
+    public string find;
+    public GameObject Serash;
+    public GameObject Display;
 
     public void Names()
     {
 
-        findWord = inputField.GetComponent<Text>().text;
+        find = Serash.GetComponent<Text>().text;
 
-        if (findWord == "Unity")
+        if (find == "Boom")
         {
-            textDisplay.GetComponent<Text>().text = "[" + findWord + "]" + "is found";
+            Display.GetComponent<Text>().text = "[ <color=purple> " + find + "</color> ]" + "is found";
         }
-        else if (findWord == "Unreal")
+        else if (find == "Poison")
         {
-            textDisplay.GetComponent<Text>().text = "[" + findWord + "]" + "is found";
+            Display.GetComponent<Text>().text = "[ <color=purple> " + find + "</color> ]" + "is found";
         }
-        else if (findWord == "ResidentEvil")
+        else if (find == "ResidentEvil")
         {
-            textDisplay.GetComponent<Text>().text = "[" + findWord + "]" + "is found";
+            Display.GetComponent<Text>().text = "[ <color=purple> " + find + "</color> ]" + "is found";
         }
-        else if (findWord == "Google")
+        else if (find == "Comic")
         {
-            textDisplay.GetComponent<Text>().text = "[" + findWord + "]" + "is found";
+            Display.GetComponent<Text>().text = "[ <color=purple> " + find + "</color> ]" + "is found";
         }
-        else if (findWord == "MongoDB")
+        else if (find == "Thailand")
         {
-            textDisplay.GetComponent<Text>().text = "[" + findWord + "]" + "is found";
+            Display.GetComponent<Text>().text = "[ <color=purple> " + find + "</color> ]" + "is found";
         }
         else
         {
-            textDisplay.GetComponent<Text>().text = "[" + findWord + "]" + "not found";
+            Display.GetComponent<Text>().text = "[ <color=red> " + find + "</color> ]" + "not found";
         }
 
 

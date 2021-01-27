@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 19700423}
   - component: {fileID: 19700422}
   m_Layer: 5
-  m_Name: TextUnity
+  m_Name: TextBoom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -190,7 +190,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Unity
+  m_Text: Boom
 --- !u!222 &19700423
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -341,7 +341,7 @@ GameObject:
   - component: {fileID: 223535858}
   - component: {fileID: 223535857}
   m_Layer: 5
-  m_Name: TextMongoDB
+  m_Name: TextThailand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -398,7 +398,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: MongoDB
+  m_Text: Thailand
 --- !u!222 &223535858
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -830,7 +830,7 @@ GameObject:
   - component: {fileID: 1270782318}
   - component: {fileID: 1270782317}
   m_Layer: 5
-  m_Name: 'TextGoogle '
+  m_Name: TextComic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -887,7 +887,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Google
+  m_Text: 'Comic
 
 '
 --- !u!222 &1270782318
@@ -927,9 +927,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80d5ed2bc6ab7274b99dd13c06753064, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  findWord: 
-  inputField: {fileID: 2016555980}
-  textDisplay: {fileID: 539855734}
+  find: 
+  Serash: {fileID: 2016555980}
+  Display: {fileID: 539855734}
 --- !u!4 &1690549967
 Transform:
   m_ObjectHideFlags: 0
@@ -956,7 +956,7 @@ GameObject:
   - component: {fileID: 1704778179}
   - component: {fileID: 1704778178}
   m_Layer: 5
-  m_Name: TextUnreal
+  m_Name: TextPoison
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1013,7 +1013,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Unreal
+  m_Text: Poison
 --- !u!222 &1704778179
 CanvasRenderer:
   m_ObjectHideFlags: 0
